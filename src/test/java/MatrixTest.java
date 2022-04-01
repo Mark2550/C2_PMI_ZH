@@ -9,9 +9,8 @@ public class MatrixTest {
     private static final Random RANDOM_GENERATOR = new Random();
     private static final int MATRIX_LENGTH = 5;
 
-    /*
     @Test
-    public void testNumberOfNonZeroValues() {
+    public void testNumberOfNonZeroValues() {       //MŰKÖDIK
         int[][] matrix = {
                 {  0,  67,  22,   0,  95},
                 { 72,   0,   0, -88,   0},
@@ -44,5 +43,4 @@ public class MatrixTest {
             assertEquals(expected.get(i), actual.get(i));
         }
     }
-    */
 }
